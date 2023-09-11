@@ -1,0 +1,9 @@
+windows开启Hyper-V-Tools-All，powershell执行
+
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Tools-All -All
+
+pve安装
+通过ventoy安装，
+安装后登录pve的web界面
+界面有警告--因为没有付费订阅
+，取消提示可以注释文件
